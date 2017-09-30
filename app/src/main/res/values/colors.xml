@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="splash_background">#20d2bb</color>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#40c4ff</color>
+
+    <color name="color_primary">#03a9f4</color>
+    <color name="color_primary_dark">#0288d1</color>
+    <color name="color_accent">#40c4ff</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="black">#000000</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#2980b9</color>
+    <color name="bg_screen6">#ff5722</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#226997</color>
+    <color name="dot_dark_screen6">#e64a19</color>
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+	
+	<color name="color_material_metaphor">#039BE5</color>
+    <color name="color_material_bold">#EC407A</color>
+    <color name="color_material_motion">#6A1B9A</color>
+    <color name="color_material_shadow">#E0E0E0</color>
+    <color name="color_permissions">#FFEB3B</color>
+    <color name="color_custom_fragment_1">#E64A19</color>
+    <color name="color_custom_fragment_2">#3F51B5</color>
+    <color name="color_canteen">#fdfdfd</color>
+
+    <color name="color_dark_material_metaphor">#0277BD</color>
+    <color name="color_dark_material_bold">#D81B60</color>
+    <color name="color_dark_material_motion">#4A148C</color>
+    <color name="color_dark_material_shadow">#BDBDBD</color>
+    <color name="color_dark_permissions">#FBC02D</color>
+    <color name="color_dark_custom_fragment_1">#BF360C</color>
+    <color name="color_dark_custom_fragment_2">#303F9F</color>
+    <color name="color_dark_canteen">#ebeef0</color>
+	<color name="mi_status_bar_background">#ff000000</color>
+    <color name="mi_ripple_color">#17000000</color>
+
+    <color name="mi_text_color_primary_light">#de000000</color>
+    <color name="mi_text_color_secondary_light">#8a000000</color>
+    <color name="mi_text_color_primary_dark">#ffffffff</color>
+    <color name="mi_text_color_secondary_dark">#b3ffffff</color>
+
+    <color name="mi_icon_color_dark">#ffffffff</color>
+    <color name="mi_icon_color_light">#8a000000</color>
+</resources>

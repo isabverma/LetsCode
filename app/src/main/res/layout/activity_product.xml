@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isabverma.letscode.startLearn.ProductActivity">
+
+    <SearchView
+        android:id="@+id/activity_product_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"></SearchView>
+
+    <ExpandableListView
+        android:id="@+id/activity_product_expendable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/activity_product_search_view"></ExpandableListView>
+
+</RelativeLayout>

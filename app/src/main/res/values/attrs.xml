@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+	
+	<declare-styleable name="InkPageIndicator">
+        <attr name="dotDiameter" format="dimension"/>
+        <attr name="dotGap" format="dimension"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="pageIndicatorColor" format="color"/>
+        <attr name="currentPageIndicatorColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxLayout_Layout">
+        <attr name="layout_parallaxFactor" format="float"/>
+    </declare-styleable>
+</resources>

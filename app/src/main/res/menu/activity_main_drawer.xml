@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:icon="@android:drawable/star_on"
+        android:title="Home" />
+    <item
+        android:id="@+id/start_learning"
+        android:icon="@android:drawable/star_on"
+        android:title="Start Learning" />
+    <item
+        android:id="@+id/my_account"
+        android:icon="@android:drawable/star_on"
+        android:title="My Account" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@android:drawable/star_on"
+        android:title="Settings" />
+    <item
+        android:id="@+id/rate_us"
+        android:icon="@android:drawable/star_on"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/give_feedback"
+        android:icon="@android:drawable/star_on"
+        android:title="Give Feedback" />
+    <item
+        android:id="@+id/contact_us"
+        android:icon="@android:drawable/star_on"
+        android:title="Contact Us" />
+</menu>
